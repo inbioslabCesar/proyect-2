@@ -4,7 +4,7 @@ import './index.css';
 const app = (
 	<div>
 		<h1>Curso de react</h1>
-		<button>Acceder</button>
+		<button>Entrar</button>
 	</div>
 );
 const container = document.getElementById('root');
