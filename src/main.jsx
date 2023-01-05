@@ -1,12 +1,7 @@
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import App from './App';
+import './style/index.css';
 
-const app = (
-	<div>
-		<h1>Curso de react</h1>
-		<button>Entrar</button>
-	</div>
-);
 const container = document.getElementById('root');
 
-createRoot(container).render(app);
+createRoot(container).render(<App />);
